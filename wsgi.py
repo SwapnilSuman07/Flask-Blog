@@ -1,4 +1,5 @@
 from flaskblog import create_app, db
+from flaskblog.models import User, Post
 
 app = create_app()
 
